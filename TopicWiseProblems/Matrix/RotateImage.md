@@ -7,7 +7,7 @@ You have to rotate the image in-place, which means you have to modify the input 
 ### Example 1
 > **Input:** matrix = [[1,2,3],[4,5,6],[7,8,9]]
 > **Output:** [[7,4,1],[8,5,2],[9,6,3]]
-
+<br>
 ### Example 2
 > **Input:** matrix = [[5,1,9,11],[2,4,8,10],[13,3,6,7],[15,14,12,16]]
 > **Output:** [[15,13,2,5],[14,3,4,1],[12,6,8,9],[16,7,10,11]]
@@ -37,7 +37,7 @@ public:
 ```
 
 ## Intuition
-<!-- Describe your first thoughts on how to solve this problem. -->
+
 The intuition for rotating a matrix 90 degrees clockwise can be understood by visualizing the movement of elements:
 
 Corner elements:
@@ -48,16 +48,13 @@ Inner elements:
 They follow the same pattern, moving in concentric squares.
 
 ## Approach
-<!-- Describe your approach to solving the problem. -->
 The approach is to follow these two steps 
 * Take the transpose of the given matrix 
 * Rotate the individual row of the matrix to get the rotated image
 
 ## Complexity
 - Time complexity:
-<!-- Add your time complexity here, e.g. $$O(n)$$ -->
 O(n*n) - As need to trasverse through the matrix
 
 - Space complexity:
-<!-- Add your space complexity here, e.g. $$O(n)$$ -->
 O(1) - we are modifying the given matrix 

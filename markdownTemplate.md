@@ -1,25 +1,26 @@
-## [Problem Title]
+# Problem Title
 
 
-# Problem desciption 
+## Problem desciption 
 <!-- Describe the problem  -->
 
 
+## constraints
 
-# Code
+
+## Code
+```cpp
+
 ```
 
-```
+## Intuition
 
-# Intuition
-<!-- Describe your first thoughts on how to solve this problem. -->
 
-# Approach
-<!-- Describe your approach to solving the problem. -->
+## Approach
 
-# Complexity
+
+## Complexity
 - Time complexity:
-<!-- Add your time complexity here, e.g. $$O(n)$$ -->
+
 
 - Space complexity:
-<!-- Add your space complexity here, e.g. $$O(n)$$ -->
