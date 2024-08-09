@@ -12,13 +12,15 @@ According to the definition of LCA on Wikipedia: “The lowest common ancestor i
 > <br>
 > **Output:** 6
 > <br>
->Explanation: The LCA of nodes 2 and 8 is 6.
+>**Explanation:** The LCA of nodes 2 and 8 is 6.
 
 
 ### Example 2:
 
 > **Input:** root = [6,2,8,0,4,7,9,null,null,3,5], p = 2, q = 4
+> <br>
 > **Output:** 2
+> <br>
 > **Explanation:** The LCA of nodes 2 and 4 is 2, since a node can be a descendant of itself according to the LCA definition.
 
 
@@ -65,20 +67,14 @@ public:
 ```
 
 # Intuition
-<!-- Describe your first thoughts on how to solve this problem. -->
 Event though the same procedure for finding the LCA of the binary tree could be used here, but utilising the property of the binary search tree should be a prime point.
 It is worth noting that the LCA of the BST would be less than one of the element and greater than the another, if we encounter a node whose value is greater than both of the value then we need to look to the left of the tree, similarly if the value of the node is lesser than both of the value, then we need to go to the right of the tree.
 3. if we encounter any node whose value is in between both of the given value, then that would be our required LCA
 
 # Approach
-<!-- Describe your approach to solving the problem. -->
 The intution itsef describes the approach 
 
 # Complexity
-- Time complexity:
-<!-- Add your time complexity here, e.g. $$O(n)$$ -->
-O(n) - at the worth case 
+- Time complexity:O(n) - at the worth case 
 
-- Space complexity:
-<!-- Add your space complexity here, e.g. $$O(n)$$ -->\
-O(logn) - at max it could go upto the depth of the tree 
+- Space complexity:O(logn) - at max it could go upto the depth of the tree 
