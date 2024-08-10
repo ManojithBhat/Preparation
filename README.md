@@ -13,4 +13,8 @@
 
 ### Matrix 
 
-1. []
+
+
+### Daily problems 
+
+1. [Regions Cut By Slashes](DailyProblems\6Aug_MinimumNumbersofPushestoTypeWord2.cpp)

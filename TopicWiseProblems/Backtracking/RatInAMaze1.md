@@ -1,4 +1,6 @@
-# Rat in a maze 
+# Rat in a maze 1
+
+[problem link](https://www.geeksforgeeks.org/problems/rat-in-a-maze-problem/1)
 
 ## Problem desciption 
 Consider a rat placed at (0, 0) in a square matrix mat of order n* n. It has to reach the destination at (n - 1, n - 1). Find all possible paths that the rat can take to reach from source to destination. The directions in which the rat can move are 'U'(up), 'D'(down), 'L' (left), 'R' (right). Value 0 at a cell in the matrix represents that it is blocked and rat cannot move to it while value 1 at a cell in the matrix represents that rat can be travel through it.
@@ -12,6 +14,8 @@ Note: In a path, no cell can be visited more than one time. If the source cell i
 >                 [0, 1, 1, 1]] <br>
 > <br>
 > **Output:** DDRDRR DRDDRR
+> <br>
+> 
 > **Explanation:** The rat can reach the destination at (3, 3) from (0, 0) by two paths - DRDDRR and DDRDRR, when printed in sorted order we get DDRDRR DRDDRR.
 
 
@@ -80,12 +84,10 @@ class Solution{
     }
 };
 
-    
-
 ```
 
 ## Intuition
-This is one such question, which involoves the combination of both ***backtracking*** ( as we are taking the path which we are following ) and graph concept of ***Depth First Search ***.
+This is one such question, which involoves the combination of both ***backtracking*** ( as we are taking the path which we are following ) and graph concept of ***Depth First Search*** .
 <br>
 It is important to note the edge cases - 
 <br>
@@ -101,7 +103,7 @@ Once we reach the base case ( reach the last cell ) we push the string to the an
 A combo of DFS and backtracking.
 
 ## Complexity
-- Time complexity:  O(3<SUP>n<sup>2)  as we are trying to find all the combination 
+- Time complexity:  O(3^n^2)  - As we are trying to find all the combination 
 
 
 - Space complexity: O(n*m)
