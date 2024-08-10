@@ -17,4 +17,4 @@
 
 ### Daily problems 
 
-1. [Regions Cut By Slashes](DailyProblems\6Aug_MinimumNumbersofPushestoTypeWord2.cpp)
+1. [Regions Cut By Slashes](DailyProblems/6Aug_MinimumNumbersofPushestoTypeWord2.cpp)
