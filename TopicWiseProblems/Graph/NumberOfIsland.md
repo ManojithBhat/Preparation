@@ -1,43 +1,42 @@
+# Problem Title
+[Problem Link]()
 
-
-/*
-
+## Problem desciption 
 Given an m x n 2D binary grid grid which represents a map of '1's (land) and '0's (water), return the number of islands.
 
 An island is surrounded by water and is formed by connecting adjacent lands horizontally or vertically. You may assume all four edges of the grid are all surrounded by water.
 
- 
 
 Example 1:
-
-Input: grid = [
-  ["1","1","1","1","0"],
-  ["1","1","0","1","0"],
-  ["1","1","0","0","0"],
-  ["0","0","0","0","0"]
-]
-Output: 1
+> 
+> **Input:** grid = [<br>
+>   ["1","1","1","1","0"],<br>
+>   ["1","1","0","1","0"],<br>
+>   ["1","1","0","0","0"],<br>
+>   ["0","0","0","0","0"]<br>
+> ]<br>
+> **Output:** 1<br>
+> 
 Example 2:
 
-Input: grid = [
-  ["1","1","0","0","0"],
-  ["1","1","0","0","0"],
-  ["0","0","1","0","0"],
-  ["0","0","0","1","1"]
-]
-Output: 3
- 
+> **Input:** grid = [<br>
+>   ["1","1","0","0","0"],<br>
+>   ["1","1","0","0","0"],<br>
+>   ["0","0","1","0","0"],<br>
+>   ["0","0","0","1","1"]<br>
+> ]<br>
+> **Output:** 3<br>
 
-Constraints:
+## constraints
 
-m == grid.length
-n == grid[i].length
-1 <= m, n <= 300
-grid[i][j] is '0' or '1'.
+* m == grid.length
+* n == grid[i].length
+* 1 <= m, n <= 300
+* grid[i][j] is '0' or '1'.
 
-*/
+## Code
+```cpp
 
-//by bfs 
 class Solution {
 public:
     void bfs(vector<vector<char>>& grid, vector<vector<int>>& vis, int row,
@@ -132,9 +131,18 @@ public:
 };
 
 
-/*
+```
 
-Intution : The idea behind the problem is we have to find the number of islands that is the ones that are surrounded by the water. the approach would be to travel through the all the 1's that are surrounded by the 0, we can either use the DFS Or BFS technique to do this
+## Intuition
+ The idea behind the problem is we have to find the number of islands that is the ones that are surrounded by the water. the approach would be to travel through the all the 1's that are surrounded by the 0, we can either use the DFS Or BFS technique to do this
 like the connected graph property we traverse through the matrix and go for either dfs or bfs only when we encounter the 1 and it is not visited.( this is important and this is where i missed the case ), can perform the dfs or bfs and mark the visited nodes and then increment the count of the islands.
 
-*/
+
+## Approach
+
+
+## Complexity
+- Time complexity:
+
+
+- Space complexity:
