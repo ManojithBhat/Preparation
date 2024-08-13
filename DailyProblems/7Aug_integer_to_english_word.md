@@ -1,18 +1,28 @@
-/*
+# Problem Title
+[Problem Link]()
+
+## Problem desciption 
 Convert a non-negative integer num to its English words representation.
-Example 1:
 
-Input: num = 123
-Output: "One Hundred Twenty Three"
-Example 2:
+### Example 1:
 
-Input: num = 12345
-Output: "Twelve Thousand Three Hundred Forty Five"
-Example 3:
+> Input: num = 123<br>
+> Output: "One Hundred Twenty Three"<br>
 
-Input: num = 1234567
-Output: "One Million Two Hundred Thirty Four Thousand Five Hundred Sixty Seven"
- */
+### Example 2:
+
+> Input: num = 12345<br>
+> Output: "Twelve Thousand Three Hundred Forty Five"<br>
+
+### Example 3:
+
+> Input: num = 1234567<br>
+> Output: "One Million Two Hundred Thirty Four Thousand Five > Hundred Sixty Seven"<br>
+<br>
+
+
+## Code
+```cpp
 
 class Solution {
 public:
@@ -73,7 +83,9 @@ public:
         }
     };
 
-    /*
+```
+
+## Intuition
     This is a hard level problem in terms of figuring out how the number are expressed in the english word, the intution for the recursion comes as the number can be divided into parts ( with some conditions ) 
         * for example, seventy five can be written as seventy + five, however seventy can be splitted into seventy + "", simillarly there is some difference in the way the number are expressed when it comes to 1 to 10 and 11 to 20 and 30,40..90. 
         * the other thing to note here is that the number can be divided into 3 parts, 1 to 999, 1000 to 999999, 1000000 to 999999999, 1000000000 to 999999999999.
@@ -81,6 +93,12 @@ public:
         
         we keep a map that stores from the 1 to 10, 11 to 20 and the 30,40..90. and then we keep a solve function that takes the number and then divides the number into the parts and then returns the english word for the number. and then we keep a numberToWords function that takes the number and then returns the english word for the number.
 
-        TimeComplexity is O(log10(n) + 1 ) //as we are dividing the number by 10 in each iteration
-        space complexty is O(log10(N)+1) as we are using stack space of O(log10(n)+1)    
-    */
+## Approach
+
+
+## Complexity
+- Time complexity:  O(log10(n) + 1 ) //as we are dividing the number by 10 in each iteration
+
+
+- Space complexity: O(log10(N)+1) as we are using stack space of O(log10(n)+1)  
+
