@@ -38,3 +38,8 @@
 ### Daily problems 
 
 1. [Regions Cut By Slashes](DailyProblems/6Aug_MinimumNumbersofPushestoTypeWord2.cpp)
+
+
+
+### Must Do problems 
+1. [Find Kth Smallest Pair Distance](DailyProblems/14tAug_Find_Kth_Smallest_Pair_Distance.md)
