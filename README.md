@@ -74,6 +74,7 @@
 | Rotten Oranges                 | [RottenOranges.md](TopicWiseProblems/Graph/RottenOranges.md)                                         |
 | Time Needed to Inform All Employees | [TimeNeededtolnformAllEmployees.md](TopicWiseProblems/Graph/TimeNeededtolnformAllEmployees.md)    |
 | Topological Sort               | [TopoSort.md](TopicWiseProblems/Graph/TopoSort.md)                                                   |
+| Dijkstra Algorithm              | [Dijkstra.md](TopicWiseProblems/Graph/Dijkstra.md)                                                   |
 
 ## Linked List
 
