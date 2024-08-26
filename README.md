@@ -17,6 +17,8 @@
 | Sort Colours                      | [SortColours.cpp](TopicWiseProblems/Arrays/SortColours.cpp)                                |
 | SubArray Sum Divisible By K       | [SubArraySumDivsibleByK.md](TopicWiseProblems/Arrays/SubArraySumDivsibleByK.md)            |
 | SubArray Sum K                    | [SubArraySumK.cpp](TopicWiseProblems/Arrays/SubArraySumK.cpp)                              |
+| Fractional knapsack                   | [FractionalKnapsack](TopicWiseProblems/Arrays/FractionalKnapsack.md)                              |
+
 
 ## Backtracking
 
@@ -89,6 +91,7 @@
 | Palindromic Linked List | [PalindromicLL.md](TopicWiseProblems/LinkedList/PalindromicLL.md)                          |
 | Remove Nth Node         | [RemoveNthNode.md](TopicWiseProblems/LinkedList/RemoveNthNode.md)                          |
 | Reverse Linked List     | [ReverseLL.cpp](TopicWiseProblems/LinkedList/ReverseLL.cpp)                                |
+| **LRU Cache**   | [LRU Cache](TopicWiseProblems/LinkedList/LRUCache.md)                                |
 
 ## Matrix
 
