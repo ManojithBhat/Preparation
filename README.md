@@ -92,6 +92,7 @@
 | Remove Nth Node         | [RemoveNthNode.md](TopicWiseProblems/LinkedList/RemoveNthNode.md)                          |
 | Reverse Linked List     | [ReverseLL.cpp](TopicWiseProblems/LinkedList/ReverseLL.cpp)                                |
 | **LRU Cache**   | [LRU Cache](TopicWiseProblems/LinkedList/LRUCache.md)                                |
+| Remove Nodes from Sorted LL 2 | [RemoveNodesfromSortedLL](TopicWiseProblems/LinkedList/RemoveNodesfromSortedLL.md)                                |
 
 ## Matrix
 
