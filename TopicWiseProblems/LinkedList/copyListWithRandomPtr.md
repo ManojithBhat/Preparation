@@ -154,7 +154,7 @@ The other approach included, addign new nodes after the curr node and using 2 lo
 
 
 ## Complexity
-- Time complexity:
+- Time complexity: O(3n)
 
 
-- Space complexity:
+- Space complexity: O(n)
