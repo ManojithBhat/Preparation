@@ -116,7 +116,7 @@
 
 | Problem | Code |
 |---------|------|
-| *(No problems listed)* | |
+| Find the Most Competitive Subsequence| [most_competative_subsequence.md](TopicWiseProblesms/stack&queue/most_competative_subsequence.md)    |
 
 ## Strings
 
@@ -133,3 +133,4 @@
 | Lowest Common Ancestor        | [LowestCommonAncestor.md](TopicWiseProblems/Tree/LowestCommonAncestor.md)                 |
 | Same Tree                     | [SameTree.cpp](TopicWiseProblems/Tree/SameTree.cpp)                                       |
 | Zigzag Traversal              | [ZigzagTraversal.md](TopicWiseProblems/Tree/ZigzagTraversal.md)                           |
+| Vertical Order Traversal      | [vertical_order.md](TopicWiseProblems/Tree/vertical_order.md)                           |
