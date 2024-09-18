@@ -3,3 +3,18 @@
 
 ## Special type of problem 
 * [longest_substring_containing_vowel_with_even_count](\DailyProblems\15Sept_longest_substring_containing_vowel_with_even_count.md)
+
+
+## Comparator function 
+``` cpp
+bool compare(int a, int b) {
+   
+   return a>b;
+}
+```ks
+
+The default comparator is for ascending in the c++, however there is greater<int> template that is used for descending order which is written there above.
+
+How does it work?
+consider an array [ 3 10 34 ]
+if we want to sort it in a descending order then the function takes 2 elements let us say 3 and 10 and checks 3 > 10 which is false meaning it is not in the correct order so it will swap, so thing to note is if it returns false then it will swap or interchange then no change. 
