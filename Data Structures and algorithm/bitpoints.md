@@ -11,7 +11,7 @@ bool compare(int a, int b) {
    
    return a>b;
 }
-```ks
+```
 
 The default comparator is for ascending in the c++, however there is greater<int> template that is used for descending order which is written there above.
 
