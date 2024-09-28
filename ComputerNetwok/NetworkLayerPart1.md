@@ -77,7 +77,6 @@ Practical application
 > Optimal number of levels for N router subnet is ln(N) 
 
 
-
 ## Broadcast routing
 > Sending a packet to all destinations simultaneously is called broadcasting
 
@@ -120,4 +119,6 @@ Flow refers to the point to point traffic between sender and reciever and depend
 Divide the solution into 2 groups : 
 - open loop - solve the problem by good design ie. it does not occur at the first place
   -  midcourse correction are not made. 
-  -  iclude deciding when to accept the new 
+  -  include deciding when to accept the new 
+  
+
