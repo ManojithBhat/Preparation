@@ -224,9 +224,7 @@ the frame trans mission time Tfr must be at least two times the maximum propagat
 > **Solution :** The minimum frame transmission time is Tfr = 2 × Tp = 51.2 μs. This means, in the worst case, a station needs to transmit for a period of 51.2 μs to detect the collision. The minimum size of the frame is 10 Mbps × 51.2 μs = 512 bits or 64 bytes.
 
 
-
 > todo: add diagram
-
 
 
 ### CSMA/CA
