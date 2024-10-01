@@ -124,6 +124,12 @@
 |-----------|-------------------------------------------------------------------------------|
 | Add Binary| [Add Binary](TopicWiseProblems/Strings/addBinary.md)                          |
 
+## Sliding window
+
+| Problem   | Code                                                                          |
+|-----------|-------------------------------------------------------------------------------|
+| Longest k unique character substring | [Longest k unique character substring](TopicWiseProblems/SlidingWindow/LongestKUniqueCharacterSubstring.md)                          |
+
 ## Tree
 
 | Problem                       | Code                                                                                     |
