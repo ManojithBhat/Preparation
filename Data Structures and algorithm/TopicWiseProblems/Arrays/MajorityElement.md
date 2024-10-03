@@ -64,7 +64,7 @@ Then we iterate over the map to find the element of the count > n/2 if it is not
 
 __optimal solution__:
 by keeping the iterator for storing the element and keeping the count, we keep iterating through the array and when ele is -1, we update the element as well as cnt, when cnt is not equal to zero and if the element is same as the ele then we increament the counter or decrease the counter 
-
+The intution is goes by that the extra elements cancels out all the similar number of majority element there by leaving behind one element. For this reason we need to check on the element again.
 
 ## Complexity
 - Time complexity: O(N)

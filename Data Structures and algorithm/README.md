@@ -10,7 +10,8 @@
 | Group Anagrams                    | [GroupAnagrams.md](TopicWiseProblems/Arrays/GroupAnagrams.md)                              |
 | Job Sequencing Problem            | [JobSequencingProblem.md](TopicWiseProblems/Arrays/JobSequencingProblem.md)                |
 | Largest Sum Subarray 0            | [LargestSumSubarray0.md](TopicWiseProblems/Arrays/LargestSumSubarray0.md)                  |
-| Majority Element                  | [MajorityElement.md](TopicWiseProblems/Arrays/MajorityElement.md)                          |
+| Majority Element                  | [MajorityElement (N/2).md](TopicWiseProblems/Arrays/MajorityElement.md)                          |
+| Majority Element                  | [MajorityElement (N/3).md](TopicWiseProblems/Arrays/MajorityVotes.md)                          |
 | Maximum Product Subarray          | [MaximumProductSubarray.md](TopicWiseProblems/Arrays/MaximumProductSubarray.md)            |
 | Permutation                       | [Permutation.md](TopicWiseProblems/Arrays/Permutation.md)                                  |
 | Product Except Self               | [productExceptSelf.md](TopicWiseProblems/Arrays/productExceptSelf.md)                      |
