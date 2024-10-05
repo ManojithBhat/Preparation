@@ -130,6 +130,7 @@
 | Problem   | Code                                                                          |
 |-----------|-------------------------------------------------------------------------------|
 | Longest k unique character substring | [Longest k unique character substring](TopicWiseProblems/SlidingWindow/LongestKUniqueCharacterSubstring.md)                          |
+| Permutation in string | [Permutation in string](DailyProblems/5Oct_PermutationinString.md)                          |
 
 ## Tree
 
