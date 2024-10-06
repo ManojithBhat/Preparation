@@ -45,3 +45,24 @@ if we want to sort it in a descending order then the function takes 2 elements l
         return maxLen;
 
 ```
+
+## Stringstream in C++
+stringstream in C++ is a class that is part of the <sstream> library. It allows you to treat a string like a stream (similar to how cin and cout handle input and output) so that you can perform input/output operations on a string.
+
+### Key Uses of stringstream:
+* Extracting Data from a String:<br>
+This is useful for splitting strings, parsing numbers, or reading formatted data from a string.
+
+* Inserting Data into a String:<br>
+Just like how cout is used to output data to the console, you can insert data into a stringstream and then get the entire string for further use.
+
+```cpp
+
+stringstream ss1(s1);
+    string token;
+    while(ss1 >> token) {
+        vec1.push_back(token);
+    }
+
+```
+
