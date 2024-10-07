@@ -118,6 +118,7 @@
 | Problem | Code |
 |---------|------|
 | Find the Most Competitive Subsequence| [most_competative_subsequence.md](TopicWiseProblesms/stack&queue/most_competative_subsequence.md)    |
+| Minimum String Length After Removing Substrings| [minimum_string_length_after_removing_substrings.md](DailyProblems/7Oct_minimumLengthStringAfterRemovingSubsring.md)    |
 
 ## Strings
 
