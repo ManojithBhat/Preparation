@@ -119,6 +119,7 @@
 |---------|------|
 | Find the Most Competitive Subsequence| [most_competative_subsequence.md](TopicWiseProblesms/stack&queue/most_competative_subsequence.md)    |
 | Minimum String Length After Removing Substrings| [minimum_string_length_after_removing_substrings.md](DailyProblems/7Oct_minimumLengthStringAfterRemovingSubsring.md)    |
+| Minimum Number of Swaps to Make the String Balanced| [Minimum Number of Swaps to Make the String Balanced](DailyProblems/8Oct_minimumNumberOfSwapToMakeStringBalanced.md)    |
 
 ## Strings
 
