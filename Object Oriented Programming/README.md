@@ -60,6 +60,10 @@
             - Bitwise Operators
             - unary Operator
             - Special Operators - size of and comma ( , ) operator.
+        - endl is an I/O manipulator that’s used to insert a newline character (\n) and flush the output buffer.
+        - setw (Set Width) Found in the <iomanip> library, setw sets the width of the output field for the next output operation.
+        - typeid Operator Part of the <typeinfo> library, typeid is used for runtime type identification, allowing you to retrieve the type of an expression or variable.
+        - sizeof Operator Returns the size, in bytes, of a data type or variable.
 > Todo: special operators in cpp such as endl, setw, scope resolution operator etc.
 
 
