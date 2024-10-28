@@ -68,3 +68,11 @@ stringstream ss1(s1);
 
 ```
 
+### f a given integer num is a perfect square.
+
+```cpp
+   
+int root = (int)sqrt(num);
+if(root*root == num) return true;
+else return false;
+```
