@@ -144,3 +144,15 @@
 | Same Tree                     | [SameTree.cpp](TopicWiseProblems/Tree/SameTree.cpp)                                       |
 | Zigzag Traversal              | [ZigzagTraversal.md](TopicWiseProblems/Tree/ZigzagTraversal.md)                           |
 | Vertical Order Traversal      | [vertical_order.md](TopicWiseProblems/Tree/vertical_order.md)                           |
+
+
+## Must See
+1. Majority element [me](TopicWiseProblems/Arrays/MajorityElement.md)
+2. Construct tree from inorder and preorder [me](TopicWiseProblems/Tree/ConstructFromInAndPre.md)
+3. Lowest Common Ancestor [](TopicWiseProblems/Tree/LowestCommonAncestor.md)
+4. Number of islands [](TopicWiseProblems/Graph/NumberOfIsland.md)
+5. Spiral Matrix [](TopicWiseProblems/Matrix/SpiralMatrix.md)
+6. Longest Consecutive Subsequence [](TopicWiseProblems/Arrays/LongestConsecutiveSubsequence.md)
+7. Kadane's algorithm [](TopicWiseProblems/Arrays/MaximumSubArraySum.md)
+8. Maximal Squares [](TopicWiseProblems/DynamicProgramming/MaximalSquare.md)
+9. House Robber [](TopicWiseProblems/DynamicProgramming/1D%20Dp/HouseRobber.md)
