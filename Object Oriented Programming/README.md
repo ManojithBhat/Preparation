@@ -962,7 +962,51 @@ int main(){
   c3.print()
 }
 ```
+### steam operator overloading
 
+operators << and >> are commonly overloaded to enable convenient input and output for custom classes. These operators are traditionally used with streams like cin and cout but can be overloaded to handle custom data types. Overloading these operators allows objects to be directly used in input and output statements, making code more readable and expressive.
+
+* These operators are usually implemented as friend functions because the left operand (ostream or istream) is not an object of the class, and we need direct access to the private members of the class.
+
+```cpp
+#include <iostream>
+using namespace std;
+
+class Complex {
+private:
+    int real;
+    int imag;
+
+public:
+    Complex(int r = 0, int i = 0) : real(r), imag(i) {}
+
+    // Friend function to allow access to private members
+    friend ostream& operator<<(ostream& os, const Complex& c);
+    friend istream& operator>>(istream& is, Complex& c);
+};
+
+ostream& operator<<(ostream& os, const Complex& c) {
+    os << c.real << " + " << c.imag << "i";
+    return os;
+}
+
+istream& operator>>(istream& is, Complex& c) {
+    cout << "Enter real part: ";
+    is >> c.real;
+    cout << "Enter imaginary part: ";
+    is >> c.imag;
+    return is;
+}
+
+int main() {
+    Complex c1;
+    cout << "Enter a complex number:\n";
+    cin >> c1;
+    cout << "You entered: " << c1 << endl;
+    return 0;
+}
+
+```
 
 ### Base pointer to the derived object 
 ```cpp
