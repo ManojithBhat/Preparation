@@ -17,7 +17,7 @@ A subarray is a contiguous part of an array.
 
 
 ## constraints
-* 1 <= nums.length <= 2 * 104
+* 1 <= nums.length <= 2 * 10^4
 * 1 <= nums[i], k <= nums.length
 
 ## Code
@@ -41,7 +41,7 @@ public:
 
             while(freq.size() > k){
                 freq[nums[i]]--;
-                if(freq[nums[i]] ==0 ) freq.erase(nums[i]);
+                if(freq[nums[i]] == 0 ) freq.erase(nums[i]);
                 i++;
             }
             maxSubString += j-i+1;

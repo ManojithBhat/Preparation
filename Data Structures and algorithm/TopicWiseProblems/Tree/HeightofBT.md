@@ -21,7 +21,6 @@ Output: 2
 -100 <= Node.val <= 100
 
 
-
 ## Code
 ```
     class Solution {
