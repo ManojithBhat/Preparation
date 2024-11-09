@@ -1,4 +1,4 @@
-**Verint Interview Experience**
+# Verint Interview Experience
 
 
 ### Round 1: Technical
@@ -37,3 +37,6 @@ The HR round began with a request to introduce myself, including details about m
 
 
 ### Final result : got shortlisted : uffff 
+
+
+> Understand every concept you've mentioned in your resume, because you never know where questions about your projects may lead.
