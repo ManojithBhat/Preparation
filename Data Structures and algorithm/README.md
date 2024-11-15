@@ -147,12 +147,12 @@
 
 
 ## Must See
-1. Majority element [me](TopicWiseProblems/Arrays/MajorityElement.md)
-2. Construct tree from inorder and preorder [me](TopicWiseProblems/Tree/ConstructFromInAndPre.md)
-3. Lowest Common Ancestor [](TopicWiseProblems/Tree/LowestCommonAncestor.md)
-4. Number of islands [](TopicWiseProblems/Graph/NumberOfIsland.md)
-5. Spiral Matrix [](TopicWiseProblems/Matrix/SpiralMatrix.md)
-6. Longest Consecutive Subsequence [](TopicWiseProblems/Arrays/LongestConsecutiveSubsequence.md)
-7. Kadane's algorithm [](TopicWiseProblems/Arrays/MaximumSubArraySum.md)
-8. Maximal Squares [](TopicWiseProblems/DynamicProgramming/MaximalSquare.md)
-9. House Robber [](TopicWiseProblems/DynamicProgramming/1D%20Dp/HouseRobber.md)
+1. Majority element [majority element](TopicWiseProblems/Arrays/MajorityElement.md)
+2. Construct tree from inorder and preorder [construct tree from inorder and preorder traversal](TopicWiseProblems/Tree/ConstructFromInAndPre.md)
+3. Lowest Common Ancestor [Lowest common ancestor](TopicWiseProblems/Tree/LowestCommonAncestor.md)
+4. Number of islands [Number of islands](TopicWiseProblems/Graph/NumberOfIsland.md)
+5. Spiral Matrix [spiral matrix](TopicWiseProblems/Matrix/SpiralMatrix.md)
+6. Longest Consecutive Subsequence [Longest Consecutive subseaquence](TopicWiseProblems/Arrays/LongestConsecutiveSubsequence.md)
+7. Kadane's algorithm [Kadane's algorithm](TopicWiseProblems/Arrays/MaximumSubArraySum.md)
+8. Maximal Squares [Maximal squares](TopicWiseProblems/DynamicProgramming/MaximalSquare.md)
+9. House Robber [House robber](TopicWiseProblems/DynamicProgramming/1D%20Dp/HouseRobber.md)
