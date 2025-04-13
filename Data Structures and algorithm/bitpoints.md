@@ -75,4 +75,9 @@ stringstream ss1(s1);
 int root = (int)sqrt(num);
 if(root*root == num) return true;
 else return false;
+
 ```
+
+### using binary exponent for finding the square root of the number 
+check this post -> [Binary Exponent](TopicWiseProblems/Math/binaryExponentiatin.md)
+similar problem that uses this concept -> [Count good numbers](https://leetcode.com/problems/count-good-numbers/description/)
