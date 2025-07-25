@@ -73,6 +73,53 @@ public:
 
 ```
 
+without multiset. 
+```cpp
+
+/**
+ * Definition for a binary tree node.
+ * struct TreeNode {
+ *     int val;
+ *     TreeNode *left;
+ *     TreeNode *right;
+ *     TreeNode() : val(0), left(nullptr), right(nullptr) {}
+ *     TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
+ *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
+ * };
+ */
+class Solution {
+public:
+    void solve(TreeNode* node, int x,int y,map<int,vector<pair<int,int>>> &mp){
+        if(node == NULL) return;
+
+        mp[x].push_back({y,node->val});
+
+        solve(node->left,x - 1, y + 1, mp);
+        solve(node->right,x + 1, y + 1,mp);
+    }
+
+    vector<vector<int>> verticalTraversal(TreeNode* root) {
+        map<int,vector<pair<int,int>>> mp;
+        vector<vector<int>> res;
+
+        solve(root,0,0,mp);
+
+        for(auto it: mp){
+            sort(it.second.begin(),it.second.end());
+            vector<int> tmp;
+
+            for(int i = 0;i<it.second.size();i++){
+                tmp.push_back(it.second[i].second);
+            }
+            res.push_back(tmp);
+           
+        }
+
+        return res;
+    }
+};
+```
+
 ## Intuition
 
 

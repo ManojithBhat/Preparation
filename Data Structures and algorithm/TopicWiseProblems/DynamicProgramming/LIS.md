@@ -88,6 +88,8 @@ Optimised approach
 
 ```
 
+There is also another way to do it by the binary search. 
+
 ## Intuition
 The intution for the longest increasing subsequence is that we need to find a subsequence that is increasing.
 
